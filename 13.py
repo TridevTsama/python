@@ -1,0 +1,10 @@
+a=10
+b=20
+a+=5
+print(a)
+b-=6
+print(b)
+a*=7
+print(a)
+b/=2
+print(b)
