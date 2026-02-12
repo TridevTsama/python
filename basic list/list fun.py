@@ -1,0 +1,10 @@
+l = [3, 1, 2]
+l.append(4)
+print(f"list after append is {l}")
+l.insert(0,5)
+print(f"list after insert is {l}")
+print(f"before sort is{l}")
+l.sort()
+print(f"list after sort is{l}")
+new = sorted(l)
+print(f"new list after sorted is{new}")
